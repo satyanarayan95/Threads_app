@@ -1,4 +1,4 @@
-# Assignment 1
+# Threads App Clone Using NextJS
 
 ![Static Badge](https://img.shields.io/badge/React-blue)
 ![Static Badge](https://img.shields.io/badge/NextJS-black)
@@ -6,15 +6,15 @@
 
 ![name](https://img.shields.io/badge/Satya--Narayan--Patra-Software--Developer-green)
 
-## Threads app clone [live url](https://threads-app-silk.vercel.app/)
+## [live url](https://threads-app-silk.vercel.app/)
 
--   Skills Gained in this project
+## Skills Gained in this project
     -   Learned NextJS 13.
     -   Learned latest app routing.
     -   Learned to integrate clerk authentication
     -   Practised typescript.
 
-### Skills used:
+## Skills used:
   - React JS
   - Javascript
   - Typescript
@@ -28,4 +28,4 @@
 
 #### Screenshot
 
-![Threads](./screenshot/2.png)
+![Threads](../public/screnshot.png)
