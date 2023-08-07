@@ -5,10 +5,10 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 
 import "../globals.css";
-import LeftSidebar from "@/components/shared/LeftSidebar";
-import Bottombar from "@/components/shared/Bottombar";
-import RightSidebar from "@/components/shared/RightSidebar";
 import Topbar from "@/components/shared/Topbar";
+import LeftSideBar from "@/components/shared/LeftSideBar";
+import BottomBar from "@/components/shared/BottomBar";
+import RightSideBar from "@/components/shared/RightSideBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,15 +33,15 @@ export default function RootLayout({
           <Topbar />
 
           <main className='flex flex-row'>
-            <LeftSidebar />
+            <LeftSideBar />
             <section className='main-container'>
               <div className='w-full max-w-4xl'>{children}</div>
             </section>
             {/* @ts-ignore */}
-            <RightSidebar />
+            <RightSideBar />
           </main>
 
-          <Bottombar />
+          <BottomBar />
         </body>
       </html>
     </ClerkProvider>

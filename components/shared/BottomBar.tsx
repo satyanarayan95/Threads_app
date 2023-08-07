@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 import { sidebarLinks } from "@/constants";
 
-function BottomBar() {
+function Bottombar() {
   const pathname = usePathname();
 
   return (
@@ -42,4 +42,4 @@ function BottomBar() {
   );
 }
 
-export default BottomBar;
+export default Bottombar;
